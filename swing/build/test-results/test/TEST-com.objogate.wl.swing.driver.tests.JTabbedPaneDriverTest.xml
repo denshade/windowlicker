@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.objogate.wl.swing.driver.tests.JTabbedPaneDriverTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2023-07-01T20:19:57" hostname="DESKTOP-KELJ5DS" time="24.976">
+  <properties/>
+  <testcase name="testCanSelectRightAlignedTabsByIndex" classname="com.objogate.wl.swing.driver.tests.JTabbedPaneDriverTest" time="3.483"/>
+  <testcase name="testCanSelectLeftAlignedTabsByIndex" classname="com.objogate.wl.swing.driver.tests.JTabbedPaneDriverTest" time="3.483"/>
+  <testcase name="testCanSelectTopAlignedTabsByIndex" classname="com.objogate.wl.swing.driver.tests.JTabbedPaneDriverTest" time="3.362"/>
+  <testcase name="testCanNavigateHiddenTabs" classname="com.objogate.wl.swing.driver.tests.JTabbedPaneDriverTest" time="10.564"/>
+  <testcase name="testCanCountTabs" classname="com.objogate.wl.swing.driver.tests.JTabbedPaneDriverTest" time="0.532"/>
+  <testcase name="testCanSelectBottomAlignedTabsByIndex" classname="com.objogate.wl.swing.driver.tests.JTabbedPaneDriverTest" time="3.547"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[WARNING: could not load keyboard layout BE, using fallback layout with reduced capabilities (JAR entry com/objogate/wl/keyboard/BE not found in C:\Users\densh\code\windowlicker\core\build\libs\core.jar)
+WARNING: could not load keyboard layout BE, using fallback layout with reduced capabilities (JAR entry com/objogate/wl/keyboard/BE not found in C:\Users\densh\code\windowlicker\core\build\libs\core.jar)
+WARNING: could not load keyboard layout BE, using fallback layout with reduced capabilities (JAR entry com/objogate/wl/keyboard/BE not found in C:\Users\densh\code\windowlicker\core\build\libs\core.jar)
+WARNING: could not load keyboard layout BE, using fallback layout with reduced capabilities (JAR entry com/objogate/wl/keyboard/BE not found in C:\Users\densh\code\windowlicker\core\build\libs\core.jar)
+Exception in thread "AWT-EventQueue-0" java.lang.NullPointerException: Cannot read field "top" because "topInsets" is null
+	at java.desktop/javax.swing.plaf.basic.BasicTabbedPaneUI.rotateInsets(BasicTabbedPaneUI.java:2538)
+	at java.desktop/javax.swing.plaf.basic.BasicTabbedPaneUI.getTabAreaInsets(BasicTabbedPaneUI.java:2116)
+	at java.desktop/javax.swing.plaf.basic.BasicTabbedPaneUI$TabbedPaneScrollLayout.calculateTabRects(BasicTabbedPaneUI.java:3587)
+	at java.desktop/javax.swing.plaf.basic.BasicTabbedPaneUI$TabbedPaneLayout.calculateLayoutInfo(BasicTabbedPaneUI.java:2922)
+	at java.desktop/javax.swing.plaf.basic.BasicTabbedPaneUI$TabbedPaneScrollLayout.layoutContainer(BasicTabbedPaneUI.java:3353)
+	at java.desktop/java.awt.Container.layout(Container.java:1537)
+	at java.desktop/java.awt.Container.doLayout(Container.java:1526)
+	at java.desktop/java.awt.Container.validateTree(Container.java:1722)
+	at java.desktop/java.awt.Container.validate(Container.java:1657)
+	at java.desktop/javax.swing.plaf.basic.BasicTabbedPaneUI.ensureCurrentLayout(BasicTabbedPaneUI.java:1646)
+	at java.desktop/javax.swing.plaf.basic.BasicTabbedPaneUI.paint(BasicTabbedPaneUI.java:850)
+	at java.desktop/javax.swing.plaf.ComponentUI.update(ComponentUI.java:161)
+	at java.desktop/javax.swing.JComponent.paintComponent(JComponent.java:797)
+	at java.desktop/javax.swing.JComponent.paint(JComponent.java:1074)
+	at java.desktop/javax.swing.JComponent.paintChildren(JComponent.java:907)
+	at java.desktop/javax.swing.JComponent.paint(JComponent.java:1083)
+	at java.desktop/javax.swing.JComponent.paintToOffscreen(JComponent.java:5255)
+	at java.desktop/javax.swing.RepaintManager$PaintManager.paintDoubleBufferedImpl(RepaintManager.java:1643)
+	at java.desktop/javax.swing.RepaintManager$PaintManager.paintDoubleBuffered(RepaintManager.java:1618)
+	at java.desktop/javax.swing.RepaintManager$PaintManager.paint(RepaintManager.java:1556)
+	at java.desktop/javax.swing.RepaintManager.paint(RepaintManager.java:1323)
+	at java.desktop/javax.swing.JComponent._paintImmediately(JComponent.java:5203)
+	at java.desktop/javax.swing.JComponent.paintImmediately(JComponent.java:5013)
+	at java.desktop/javax.swing.RepaintManager$4.run(RepaintManager.java:865)
+	at java.desktop/javax.swing.RepaintManager$4.run(RepaintManager.java:848)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:391)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+	at java.desktop/javax.swing.RepaintManager.paintDirtyRegions(RepaintManager.java:848)
+	at java.desktop/javax.swing.RepaintManager.paintDirtyRegions(RepaintManager.java:823)
+	at java.desktop/javax.swing.RepaintManager.prePaintDirtyRegions(RepaintManager.java:772)
+	at java.desktop/javax.swing.RepaintManager$ProcessingRunnable.run(RepaintManager.java:1884)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:316)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:770)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:721)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:715)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:391)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:740)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+WARNING: could not load keyboard layout BE, using fallback layout with reduced capabilities (JAR entry com/objogate/wl/keyboard/BE not found in C:\Users\densh\code\windowlicker\core\build\libs\core.jar)
+WARNING: could not load keyboard layout BE, using fallback layout with reduced capabilities (JAR entry com/objogate/wl/keyboard/BE not found in C:\Users\densh\code\windowlicker\core\build\libs\core.jar)
+]]></system-err>
+</testsuite>

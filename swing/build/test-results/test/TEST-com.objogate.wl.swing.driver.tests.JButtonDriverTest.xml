@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.objogate.wl.swing.driver.tests.JButtonDriverTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2023-07-01T20:17:35" hostname="DESKTOP-KELJ5DS" time="2.486">
+  <properties/>
+  <testcase name="testNothing" classname="com.objogate.wl.swing.driver.tests.JButtonDriverTest" time="0.59"/>
+  <testcase name="assertsButtonText" classname="com.objogate.wl.swing.driver.tests.JButtonDriverTest" time="0.681"/>
+  <testcase name="clicksButtonWithTheMouse" classname="com.objogate.wl.swing.driver.tests.JButtonDriverTest" time="1.211"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[WARNING: could not load keyboard layout BE, using fallback layout with reduced capabilities (JAR entry com/objogate/wl/keyboard/BE not found in C:\Users\densh\code\windowlicker\core\build\libs\core.jar)
+WARNING: could not load keyboard layout BE, using fallback layout with reduced capabilities (JAR entry com/objogate/wl/keyboard/BE not found in C:\Users\densh\code\windowlicker\core\build\libs\core.jar)
+WARNING: could not load keyboard layout BE, using fallback layout with reduced capabilities (JAR entry com/objogate/wl/keyboard/BE not found in C:\Users\densh\code\windowlicker\core\build\libs\core.jar)
+]]></system-err>
+</testsuite>

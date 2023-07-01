@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.objogate.wl.swing.driver.tests.JSliderDriverTest" tests="5" skipped="5" failures="0" errors="0" timestamp="2023-07-01T20:21:19" hostname="DESKTOP-KELJ5DS" time="0.0">
+  <properties/>
+  <testcase name="testCanSetTheValueOfAHorizontalSlider" classname="com.objogate.wl.swing.driver.tests.JSliderDriverTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="testCanSetTheValueOfAnSnapToVerticalSlider" classname="com.objogate.wl.swing.driver.tests.JSliderDriverTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="testCanSetTheValueOfAnInvertedHorizontalSlider" classname="com.objogate.wl.swing.driver.tests.JSliderDriverTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="testCanSetTheValueOfAnInvertedVerticalSlider" classname="com.objogate.wl.swing.driver.tests.JSliderDriverTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="testCanSetTheValueOfAVerticalSlider" classname="com.objogate.wl.swing.driver.tests.JSliderDriverTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

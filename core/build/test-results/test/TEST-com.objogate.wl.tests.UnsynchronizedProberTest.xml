@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.objogate.wl.tests.UnsynchronizedProberTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2023-07-01T20:04:02" hostname="DESKTOP-KELJ5DS" time="0.428">
+  <properties/>
+  <testcase name="runsProbeOnTestThread" classname="com.objogate.wl.tests.UnsynchronizedProberTest" time="0.001"/>
+  <testcase name="repeatedlyPollsProbeUntilItIsSatisfied" classname="com.objogate.wl.tests.UnsynchronizedProberTest" time="0.113"/>
+  <testcase name="assertionFailsIfProbeIsSatisfiedWithinTimeout" classname="com.objogate.wl.tests.UnsynchronizedProberTest" time="0.311"/>
+  <testcase name="assertonPassesIfProbeIsSatisfied" classname="com.objogate.wl.tests.UnsynchronizedProberTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

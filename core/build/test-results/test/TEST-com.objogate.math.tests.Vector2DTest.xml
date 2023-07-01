@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.objogate.math.tests.Vector2DTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2023-07-01T20:04:02" hostname="DESKTOP-KELJ5DS" time="0.002">
+  <properties/>
+  <testcase name="canBeConstructedFromAWTPoint" classname="com.objogate.math.tests.Vector2DTest" time="0.0"/>
+  <testcase name="canBeAdded" classname="com.objogate.math.tests.Vector2DTest" time="0.0"/>
+  <testcase name="canBeNormalised" classname="com.objogate.math.tests.Vector2DTest" time="0.0"/>
+  <testcase name="canBeSubtracted" classname="com.objogate.math.tests.Vector2DTest" time="0.0"/>
+  <testcase name="comparesEquality" classname="com.objogate.math.tests.Vector2DTest" time="0.0"/>
+  <testcase name="isZeroVectorWhenConstructedWithNoCoordinates" classname="com.objogate.math.tests.Vector2DTest" time="0.0"/>
+  <testcase name="canReturnMagnitude" classname="com.objogate.math.tests.Vector2DTest" time="0.0"/>
+  <testcase name="canBeConstructedWithXAndYCoordinates" classname="com.objogate.math.tests.Vector2DTest" time="0.0"/>
+  <testcase name="canReturnAngleFromAnotherVector" classname="com.objogate.math.tests.Vector2DTest" time="0.001"/>
+  <testcase name="canBeCreatedFromPolarCoordinates" classname="com.objogate.math.tests.Vector2DTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
