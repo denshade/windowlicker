@@ -54,7 +54,7 @@
 		<sequential>
 			<mkdir dir="@{classdir}" />
 
-			<javac srcdir="@{srcdir}" classpathref="@{classpathref}" destdir="@{classdir}" debug="true" source="1.5" target="1.5" fork="true" />
+			<javac srcdir="@{srcdir}" classpathref="@{classpathref}" destdir="@{classdir}" debug="true" source="7" target="7" fork="true" />
 
 			<copy todir="@{classdir}">
 				<fileset dir="@{srcdir}" excludes="**/*.java" />
