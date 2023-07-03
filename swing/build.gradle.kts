@@ -1,6 +1,7 @@
 plugins {
     java
     id("com.github.johnrengelman.shadow") version "7.0.0"
+    `maven-publish`
 }
 
 java {
@@ -29,4 +30,8 @@ dependencies {
 }
 repositories {
     mavenCentral()
+}
+
+tasks.named<Jar>("jar") {
+    archiveFileName.set("custom-jar-name.jar") // Set the desired output name
 }
